@@ -233,12 +233,57 @@ function App() {
             </div>
           </div>
 
-          <form className="contact-form">
-            <input type="text" placeholder="Your Name" />
+          <form
+            className="contact-form"
+            onSubmit={(e) => {
+              e.preventDefault();
 
-            <input type="email" placeholder="Your Email" />
+              const form = e.target;
 
-            <textarea rows="6" placeholder="Your Message"></textarea>
+              const name = form.name.value;
+              const email = form.email.value;
+              const message = form.message.value;
+
+              const subject = `Portfolio Contact from ${name}`;
+
+              const body = `Hello Chris,
+
+              You received a new message from your portfolio.
+
+              Name: ${name}
+              Email: ${email}
+
+              Message:
+              ${message}
+
+              -------------------------
+              Sent from your portfolio website.
+              `;
+
+              const gmailUrl =
+                `https://mail.google.com/mail/?view=cm&fs=1` +
+                `&to=zaratechristopher774@gmail.com` +
+                `&su=${encodeURIComponent(subject)}` +
+                `&body=${encodeURIComponent(body)}`;
+
+              window.open(gmailUrl, "_blank");
+            }}
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Your Message"
+              required
+            ></textarea>
 
             <button type="submit">Send Message</button>
           </form>
