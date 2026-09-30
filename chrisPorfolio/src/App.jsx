@@ -219,12 +219,12 @@ function App() {
 
             <div className="contact-item">
               <strong>Email</strong>
-              <span>your-email@gmail.com</span>
+              <span>zaratechristopher774@gmail.com</span>
             </div>
 
             <div className="contact-item">
               <strong>Phone</strong>
-              <span>+63 XXX XXX XXXX</span>
+              <span>+63 234556789</span>
             </div>
 
             <div className="contact-item">
