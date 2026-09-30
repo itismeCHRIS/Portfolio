@@ -18,7 +18,7 @@ function App() {
       title: "Laravel Data Routing Frontend Integration",
       description:
         "A task management system developed using Laravel, React, and Inertia.",
-      link: "#",
+      link: "https://github.com/itismeCHRIS/laravel-Data_Routing_Frontend-Integration..git",
     },
     {
       title: "Drugs and Medicine Inventory System",
@@ -30,25 +30,25 @@ function App() {
       title: "Library Management System",
       description:
         "A system for managing library books, users, and borrowing records.",
-      link: "#",
+      link: "https://github.com/jhnyz/Library-Management-System.git",
     },
     {
       title: "State and Router",
       description:
         "A React project demonstrating state management and page routing.",
-      link: "#",
+      link: "https://github.com/itismeCHRIS/FrameWork.git",
     },
     {
       title: "CCS112 Project",
       description:
         "A school project created as part of my Computer Science coursework.",
-      link: "#",
+      link: "https://github.com/itismeCHRIS/CCS112.git",
     },
     {
       title: "Portfolio",
       description:
         "A personal portfolio website showcasing my skills and projects.",
-      link: "#",
+      link: "https://github.com/itismeCHRIS/Portfolio.git",
     },
   ];
 
